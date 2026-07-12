@@ -2,19 +2,5 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm ci",
-  "framework": "nextjs",
-  "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": {
-      "description": "Supabase project URL",
-      "required": false
-    },
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": {
-      "description": "Supabase anonymous API key",
-      "required": false
-    },
-    "NEXT_PUBLIC_WHATSAPP_NUMBER": {
-      "description": "WhatsApp contact number",
-      "required": false
-    }
-  }
+  "framework": "nextjs"
 }
